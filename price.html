@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Great+Vibes&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap" rel="stylesheet">
     
+    <title>Document</title>
+    <style>
+        body{
+            background: pink;
+            font-family: 'Comforter', sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-weight: bolder;
+            letter-spacing: 4px;
+            color: rgb(46, 43, 43);
+        }
+        #pricelist{
+            font-size: large;
+
+            position: fixed;
+            top:100px;
+            left: 700px;
+        }
+        .logo img{
+          width: 100px;
+          float: left;
+          height: auto;
+          border-radius: 50%;
+      }
+    </style>
+</head>
+<body> 
+    <div class="logo">
+        <img src="/images-cb/WhatsApp Image 2022-01-12 at 5.26.16 PM.jpeg" alt="">
+    </div>
+    <h1>Sort Products by Price</h1>
+    <form id="pricelist">
+        <input type="checkbox">
+        <label class="price">&#x20A6;5,000-&#x20A6;7,000</label>
+        <br>
+        <input type="checkbox">
+        <label class="price">&#x20A6;7,500-&#x20A6;15,000</label>
+        <br>
+        <input type="checkbox">
+        <label class="price">&#x20A6;15,500-&#x20A6;40,000</label>
+        <br>
+        <input type="checkbox">
+        <label class="price">&#x20A6;40,500-&#x20A6;100,000</label>
+        <br>
+        <input type="checkbox">
+        <label class="price">&#x20A6;100,000-&#x20A6;500,000</label>
+    </form>
 </body>
 </html>
