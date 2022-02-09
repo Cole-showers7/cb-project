@@ -17,14 +17,11 @@
             font-weight: bolder;
             letter-spacing: 4px;
             color: rgb(46, 43, 43);
-            font-size: 60px;
+            font-size: 40px;
         }
         #pricelist-form{
-            font-size: 50px;
-
-            position: fixed;
-            top:100px;
-            left: 700px;
+            font-size: 30px;
+            text-align: center;
         }
         .logo img{
           width: 100px;
@@ -32,12 +29,42 @@
           height: auto;
           border-radius: 50%;
       }
+      .nav-area{
+          float: right;
+          list-style: none;
+          margin-top: 10px;
+          position: sticky;
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+      .nav-area li{
+          display: inline-block;
+      }
+      .nav-area li a{
+          color: #fff;
+          text-decoration: none;
+          padding: 5px 20px;
+          font-family: 'Comforter', sans-serif;
+          font-size: 16px;
+      }
+      .nav-area li a:hover{
+          background:#fff;
+          color: #333;
+      }
     </style>
 </head>
 <body> 
-    <div class="logo">
+    <header>
+        <div class="logo">
         <img src="/images-cb/WhatsApp Image 2022-01-12 at 5.26.16 PM.jpeg" alt="">
-    </div>
+        </div>
+        <ul class="nav-area">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/cb.html">Order</a></li>
+          <li><a href="/gallery.html">Gallery</a> </li>
+          <li><a href="/price.html">Price</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      </header>
     <h1>Sort Products by Price</h1>
     <br>
     <p><i>All cakes come at affordable prices</i></p>
