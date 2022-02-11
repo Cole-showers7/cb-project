@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>Document</title>
       <script>
-       function showInput(){ 
+       function showInput() { 
         document.getElementById('spanResult').innerHTML=
           document.getElementById("result").value;
        }
@@ -133,9 +133,10 @@
      <label for="Special Instructions">Special Instructions:<input type="text" class="instructions"></label>
      <br>
      <br>
-     <button  onclick="testVariable()">Submit</button> <br />
+     <button  onclick="showInput()">Submit</button> <br/>
+     <label>Your input: </label>
    </form>
-   <span id="spanResult"></span>
+    <p><span id="spanResult"></span></p>
 
 </body>
 </html>
